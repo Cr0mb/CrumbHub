@@ -13,7 +13,8 @@ CrumbHub is a Python-based command-line chat application that facilitates real-t
 
 - Python 3.x installed on your system.
 
-- cryptography library installed (pip install cryptography).
+- cryptography library installed
+  ``pip install cryptography``
 
 ## Server Setup
 
