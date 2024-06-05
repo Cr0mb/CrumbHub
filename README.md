@@ -58,6 +58,4 @@ python server.py
 
 > Yes, the server uses AES encryption for message encryption and decryption. Messages are encrypted before transmission from the sender and decrypted upon receipt by the recipient, ensuring secure communication over the network.
 
-- What if I encounter issues during setup or usage?
 
-> Then please, by all means try to find the answer & share your problem & solution with us, or leave a comment in the issues section and hope for the best!
