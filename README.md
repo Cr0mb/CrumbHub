@@ -43,6 +43,28 @@ python server.py
 
 - Client Operation: Clients connect to the server using a Python script (client.py). They register/login securely and send encrypted messages to other connected users.
 
+
+### Handling User Logins
+```
+1. Password Hashing
+> When a user registers with the server, they provide a username and password.
+
+> The password is immediately hashed using a cryptographic hash function (SHA-256 in this case) before being stored.
+
+> This hashed password is what is actually saved in memory (in the passwords dictionary in the server script).
+
+2. Storage Mechanism
+> The hashed passwords (hashed_password) are stored in a dictionary (self.passwords) within the ChatServer class.
+
+> This dictionary associates each username with its hashed password.
+
+3. Login 
+> When a user attempts to log in, the server retrieves the stored hashed password associated with the provided username.
+
+> It then hashes the password attempt provided by the user and compares this hashed value with the stored hashed password.
+
+> If the hashed values match, the login is successful; otherwise, it fails.
+```
 # INFO
 
 - Do I need to keep the server running for others to connect?
