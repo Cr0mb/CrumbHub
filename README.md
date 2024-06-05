@@ -47,7 +47,7 @@ python server.py
 
 - Do I need to keep the server running for others to connect?
 
-> Yes the server must be running and accessible on a network-accessible server or machine for clients to connect to it and use the chat functionalities. Ensure your server environment allows inbound connections on the specified port (SERVER_PORT).
+> Yes the server must be running and accessible on a network-accessible server or machine for clients to connect to it and use the chat functionalities. Ensure your server environment allows inbound connections on the specified port (SERVER_PORT). If your having issues with this, make sure that the port is allowed through the firewall and that it is open.
 
 
 - How do clients connect to the server?
